@@ -1,24 +1,21 @@
-# 2022-vue-front
+# 第五週 - 進階語法介紹
 
-## Project setup
-```
-npm install
-```
+主線任務
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- 使用 VeeValidate 套件完成表單驗證功能，操作文件（無 ESM 版 本）
+- 使用 loading 套件製作 loading 效果
+- 串接前台 API 完成購物車功能
 
-### Compiles and minifies for production
-```
-npm run build
-```
+注意：
 
-### Lints and fixes files
-```
-npm run lint
-```
+- 新增相同產品到購物車時需累加項目
+- 送出訂單後，購物車需要清除原本項目
+- 購物車無產品時不建議發出結帳請求
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+前台頁面表單驗證（必要完成），驗證內容包含：
+
+- 姓名：必填
+- Email：必填 / 需要符合格式 / input type 為 email
+- 電話：必填 / 超過 8 碼 / input type 為 tel
+- 地址：必填
+- 留言：非必填
